@@ -17,4 +17,6 @@ Status: Almost done
 
 author: Al Razi
 
+pypi link: https://pypi.org/project/apiget/0.0.1/
+
 Facebook/Messenger: https://www.facebook.com/abartoha
