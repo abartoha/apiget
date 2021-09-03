@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 DESCRIPTION = 'API fetching to JSON'
 LONG_DESCRIPTION = 'Automation of API fetching and converting to JSON (usually dicts), no hassle with clunky requests'
 
@@ -14,7 +14,7 @@ setup(
     long_description_content_type="text/markdown",
     long_description=LONG_DESCRIPTION,
     packages=find_packages(),
-    install_requires=['json','requests'],
+    install_requires=['requests'],
     keywords=['python', 'API', 'apifetch', 'apiget', 'apicatch', 'apicall', 'apipull', 'api', 'json'],
     classifiers=[
         "Development Status :: 1 - Planning",

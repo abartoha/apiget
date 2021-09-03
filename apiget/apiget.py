@@ -1,6 +1,5 @@
 import json
 import requests
-API_TEST_URL_PRIVATE = f"https://api.agify.io/?name=Dave"
 
 class API:
     """
@@ -8,7 +7,7 @@ class API:
     Automation of API fetching and converting to JSON
     -----------------------------------------------------
     
-    version: 0.0.1
+    version: 0.0.2
     
     Recommended Method of Usage:
         `json_object = API(api_url)()` 
@@ -85,10 +84,3 @@ class API:
         I might need to do more stuff in the near future.
         """
         return self.object_json
-
-if __name__ == "__main__":
-    # Just a test run
-    name = "Razi"#.replace(" ","+") # It's important here because api urls can't include any whitespaces!
-    URL = f"https://api.agify.io/?name=Dave"
-    json = API(URL)()
-    print(json)
